@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Dagonline</title>
+    <link rel="stylesheet" href="estilos.css">
+
+    <script src="js/calculadora.js"></script>
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <h2>.: Calculadora Básica :.</h2>
+        <hr>
+        <div class="formulario">
+            <label class="lbl" for="numero1">Número 1:</label>
+            <input type="number" class="casilla" id="numero1" autofocus  >
+            <br>
+            <label  class="lbl" for="numero2">Número 2:</label>
+            <input type="number" class="casilla" id="numero2"  >
+            <br>
+            <label class="lbl" for="tipo">Tipo de Operación:</label>
+            <select class="casilla2" id="tipo">
+                <option value="1" selected>Suma</option>
+                <option value="2">Resta</option>
+                <option value="3">Multiplicación</option>
+                <option value="4">División</option>
+            </select>
+            <br>
+            <button class="btn" type="button" onclick="operacion()">Calcular</button>
+            <hr>
+        </div>
+
+        <div id="resultado"></div>
+    </div>
+    
+
+
+
+</body>
+
+</html>

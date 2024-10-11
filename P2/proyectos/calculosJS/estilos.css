@@ -1,0 +1,68 @@
+/* Aplicar estilos */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(escritoriopc1.jpg);
+    height: 100vmax; 
+    background-size: cover;
+}
+
+
+.contenedor{
+    margin: auto;
+    max-width: 1920px;
+    width: 90%;
+    
+}
+
+h2{
+    font-size: 4vw;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    font-weight: normal;
+}
+
+.formulario{
+    text-align: center;
+    color: white;
+
+}
+
+.lbl{
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.casilla{
+    font-size: 1.5vw;
+    font-weight: bold;
+    width: 5%;
+    color: black;
+}
+
+.casilla2{
+    font-size: 1.5vw;
+    font-weight: bold;
+    width: auto;
+    color: black;
+}
+
+.btn{
+    margin-top: 2vw;
+    background-color: #5db8f8;
+    padding: 1vw;
+    font-size: 1.5vw;
+    color: white;
+    border: 1px solid #5db8f8;
+}
+
+h3{
+    font-size: 3vw;
+    font-weight: bold;
+    color:white;
+    text-align: center;
+
+}
